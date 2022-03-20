@@ -1,1 +1,1 @@
-Simple cognito effects
+Check your horoscope and subscribe for periodic horoscope updates.
