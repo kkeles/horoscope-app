@@ -8,6 +8,7 @@ import Account from "../../pages/Account";
 import Home from "../../pages/Home";
 import Login from "../../pages/Login";
 import Signup from "../../pages/Signup";
+import GuestHome from "../../pages/GuestHome";
 
 
 const NavbarRouter = () => {
@@ -24,6 +25,7 @@ const NavbarRouter = () => {
                 <Route path='/login' element={<Login/>}/>
                 <Route path='/about' element={<About/>}/>
                 <Route path='/account' element={<Account/>}/>
+                <Route path='/guest-home' element={<GuestHome/>}/>
             </Routes> 
       </BrowserRouter>
     </AccountActions>
